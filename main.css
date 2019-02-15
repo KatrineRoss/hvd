@@ -1,0 +1,72 @@
+* {
+    transition: all 0.2 ease-in-out;
+}
+
+body{padding: 0; margin: 0; background: rgb(48, 48, 48); color: whitesmoke;}
+
+h2{
+    position: fixed;
+    right: 5.5vw;
+    top: 50%;
+    font-family: monospace;
+    letter-spacing: 0.3em;
+    font-size: 1.1em;
+}
+
+.slot{
+    display: inline-block;
+    width: 35vw;
+    margin: 0 5vw 3vh 0;
+    background: black;
+    height: 24.15vw;
+}
+
+/* #first{
+    background: url(images/wires_and_light.png) no-repeat;
+    background-size: cover;
+} */
+
+.text {
+    width: 70vw;
+    font-size: 20pt;
+}
+
+.block {
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.night {
+    position: absolute;
+    right: 0;
+}
+
+input {
+    width: 60vw;
+    height: 10vh;
+    margin-left: 20vw;
+    margin-top: 45vh;
+    font-size: 30pt;
+    line-height: 20vh;
+}
+
+.content {
+    padding-left: 10vw;
+    padding-top: 20vh;
+    background: url(images/star.gif);
+    background-size: cover;
+} 
+
+.star {
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
